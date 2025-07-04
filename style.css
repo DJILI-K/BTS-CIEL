@@ -1,50 +1,68 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
+  background-color: #f5f5f5;
   text-align: center;
 }
 
 h1 {
   background-color: #2c3e50;
   color: white;
-  padding: 20px 0;
+  padding: 30px 0;
   margin: 0;
+  font-size: 32px;
 }
 
-.container {
+.grid-container {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  margin-top: 40px;
-  gap: 30px;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.module {
+  text-align: center;
+}
+
+.module h2 {
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 20px;
 }
 
 .box {
-  background-color: white;
-  border: 2px solid #2c3e50;
-  border-radius: 10px;
-  width: 220px;
-  padding: 20px;
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
-}
-
-.box h2 {
-  font-size: 18px;
-  margin-bottom: 10px;
-  color: #2c3e50;
+  width: 250px;
+  height: 120px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
 }
 
 .box a {
-  display: inline-block;
-  padding: 10px 15px;
-  background-color: #3498db;
-  color: white;
   text-decoration: none;
-  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.box a:hover {
-  background-color: #2980b9;
+/* Couleurs différentes pour chaque rectangle */
+.color1 {
+  background-color: #a8dadc; /* bleu clair */
+}
+
+.color2 {
+  background-color: #ffe066; /* jaune pastel */
+}
+
+.color3 {
+  background-color: #b5ead7; /* vert clair */
+}
+
+.color4 {
+  background-color: #f3c1c6; /* rose clair */
 }
